@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Document</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <div class="row h-100">
+            <div class="container mt-5">
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="api_id">API_ID</label>
+                        <input class="form-control" id="api_id" name="api_id" type="number" placeholder="API ID" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="api_hash">API_HASH</label>
+                        <input class="form-control" id="api_hash" name="api_hash" type="text" placeholder="API HASH" required>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Next">
+                </form>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
